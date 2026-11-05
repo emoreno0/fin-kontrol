@@ -67,7 +67,7 @@ export default function Menu() {
   return (
     <>
       <aside
-        className={`relative flex h-screen flex-col rounded-r-xl border-r border-slate-200 bg-slate-50 py-6 transition-all duration-300 ${collapsed ? "w-19 px-2" : "w-64 px-4"
+        className={`relative flex h-screen flex-col rounded-r-xl border-r border-slate-300 bg-slate-200 py-6 transition-all duration-300 ${collapsed ? "w-19 px-2" : "w-64 px-4"
           }`}
       >
         {/* Collapse Button */}
@@ -86,7 +86,7 @@ export default function Menu() {
 
         {/* Logo */}
         <div
-          className={`mb-12 flex items-center ${collapsed ? "justify-center" : "gap-3 px-2"
+          className={`rounded-lg p-2 mb-12 flex items-center ${collapsed ? "justify-center" : "gap-3 px-2"
             }`}
         >
           <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-emerald-500 text-white">
